@@ -10,13 +10,20 @@
 
 @interface ViewController ()
 
+-(void) sayByeBye;
+
 @end
 
 @implementation ViewController
 
+-(void) sayByeBye{
+    NSLog(@"Bye-bye\n");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self sayByeBye];
 }
 
 
