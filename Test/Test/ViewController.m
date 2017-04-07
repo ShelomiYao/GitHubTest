@@ -23,6 +23,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    int a = 5;
+    int b = 10;
+    
+    NSLog(@"a + b = %d\n", a + b);
+    
     [self sayByeBye];
 }
 
