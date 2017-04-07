@@ -17,7 +17,8 @@
 @implementation ViewController
 
 -(void) sayHello{
-        NSLog(@"Hello");
+    NSLog(@"Hello\n");
+    NSLog(@"world\n");
 }
 
 - (void)viewDidLoad {
